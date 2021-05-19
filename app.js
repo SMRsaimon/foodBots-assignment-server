@@ -13,6 +13,14 @@ app.get("/userInformation", (req, res)=>{
 
 })
 
+app.get("/orderDetails", (req, res)=>{
+
+  res.json(orderSummary)
+
+})
+
+
+
 
 
 
