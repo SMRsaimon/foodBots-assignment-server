@@ -5,7 +5,11 @@ const orderSummary=require("./order_summary.json")
 app.use(cors());
 app.use(express.json())
 
+app.get("/", (req, res)=>{
 
+  res.send("Wellcome to Food Bots ")
+
+})
 
 app.get("/userInformation", (req, res)=>{
 
