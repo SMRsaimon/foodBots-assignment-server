@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 
-app.get("/", (req, res)=>{
+app.get("/userInformation", (req, res)=>{
 
        res.json(orderSummary.user)
 
